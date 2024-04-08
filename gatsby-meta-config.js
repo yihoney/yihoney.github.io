@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['더 나은 삶을 선물하는', '문제를 찾아 개선하는', '함께하고 싶은'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: 'YiCon.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/yihoney`,
