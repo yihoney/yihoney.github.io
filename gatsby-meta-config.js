@@ -27,8 +27,6 @@ module.exports = {
   // metadata for About Page
   about: {
     timestamps: [
-      // =====       [Timestamp Sample and Structure]      =====
-      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
       {
         date: '',
         activity: '',
@@ -49,8 +47,41 @@ module.exports = {
           demo: 'https://yihoney.github.io',
         },
       },
+      {
+        date: '2023.07 ~',
+        activity: '삼성 청년 SW 아카데미(SSAFY) 10기',
+        links: {
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/yihoney/yihoney.github.io',
+          // demo: 'https://yihoney.github.io',
+        },
+      },
+      {
+        date: '2022.08 ~ 2023.03',
+        activity: 'NHN 아카데미 Java 백엔드 과정',
+        links: {
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/yihoney/yihoney.github.io',
+          // demo: 'https://yihoney.github.io',
+        },
+      },
     ],
+  },
 
+  portfolio: {
+    timestamps: [
+      {
+        date: '',
+        activity: '',
+        links: {
+          github: '',
+          post: '',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
+      },
+    ],
     projects: [
       // =====        [Project Sample and Structure]        =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====

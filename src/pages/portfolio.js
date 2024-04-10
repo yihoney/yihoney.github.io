@@ -4,21 +4,23 @@ import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
 import TimeStampSection from '../components/timestamp-section';
+import ProjectSection from '../components/project-section';
 
-function AboutPage({ data }) {
+function PortfolioPage({ data }) {
   const metaData = data.site.siteMetadata;
-  const { author, about, language } = metaData;
-  const { timestamps } = about;
+  const { author, portfolio, language } = metaData;
+  const { projects, timestamps } = portfolio;
   return (
     <Layout>
-      <Seo title="About" />
+      <Seo title="Portfolio" />
       <Bio author={author} language={language} />
       <TimeStampSection timestamps={timestamps} />
+      <ProjectSection projects={projects} />
     </Layout>
   );
 }
 
-export default AboutPage;
+export default PortfolioPage;
 
 export const pageQuery = graphql`
   query {
@@ -40,11 +42,23 @@ export const pageQuery = graphql`
             email
           }
         }
-
-        about {
+        portfolio {
           timestamps {
             date
             activity
+            links {
+              post
+              github
+              demo
+              googlePlay
+              appStore
+            }
+          }
+          projects {
+            title
+            description
+            techStack
+            thumbnailUrl
             links {
               post
               github
