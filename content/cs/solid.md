@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 📔
 title: 객체지향 5대 원칙 SOLID
 date: '2024-04-07 00:11:40'
 author: yi
