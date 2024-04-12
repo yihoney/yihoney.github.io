@@ -56,6 +56,9 @@ mongoDB에 대해 알아보던 도중 같은 noSQL인 Redis와의 차이는 무�
 
 **mongoDB**는 메모리맵 형태의 파일 엔진 db이기 때문에 ***메모리에 의존적***이라 메모리 크기가 성능을 좌우하며 메모리를 넘어서는 경우 성능이 급격히 저하된다.
 
+<br>
 
 **참고**
 [mongoDB 공식 문서 - mongoDB vs Redis](<https://www.mongodb.com/compare/mongodb-vs-redis>)
+
+<br>
