@@ -1,5 +1,5 @@
 ---
-emoji: 💬
+emoji: 🆚
 title: mongoDB vs Redis
 date: '2024-04-12 13:33:04'
 author: yi
