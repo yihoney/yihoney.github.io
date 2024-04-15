@@ -8,10 +8,12 @@ categories: VS
 ---
 <br>
 
-> 
-> **목차**
-> [`MySQL` vs `MongoDB`](#mysql)
+> <br>
+>
+> **목차** <br>
+> [`MySQL` vs `MongoDB`](#mysql) <br>
 > [`ACID` vs `BASE`](#acid-모델-vs-base-모델)
+> <br>
 
 <br>
 
